@@ -1,0 +1,59 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body{
+  background: url(IMG_8133.jpeg) no-repeat;
+  background-size: cover;
+  color: black;
+}
+.registration{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  
+}
+
+.registration h1{
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  color: orange;
+  
+}
+.registration p{
+  font-size: 20px;
+  margin: 15px 0;
+}
+.registration input{
+  font-size: 16px;
+  padding: 15px 10px;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  margin-top: -10px;
+}
+.registration button{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  width: 50%;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 3px;
+  background-color: white;
+  padding-left: 10px 15px;
+}
+.registration button:hover{
+  color: red;
+}
+.registration h4{
+  font-size: 15px;
+  font-weight: 0;
+  font-style: italic;
+  font-family: times 'Times New Roman';
+}

@@ -1,0 +1,55 @@
+body{
+  background: url(IMG_8133.jpeg) no-repeat;
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 10px;
+}
+.login{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  
+}
+.login h2 {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: orange;
+  padding-bottom: 0;
+  margin-bottom: -10px;
+  }
+.login p{
+  font-size: 20px;
+  margin: 15px 0;
+}
+.login input{
+  font-size: 16px;
+  padding: 15px 10px;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  text-transform: capitalize;
+  margin-top: -10px;
+}
+.login button{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  width: 50%;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 3px;
+  background-color: white;
+  padding-left: 10px 15px;
+}
+.login button:hover{
+  color: red;
+}
+.login h4{
+  font-size: 15px;
+  margin-top: -10px;
+}
